@@ -1,0 +1,17 @@
+node_modules/
+node_modules/*
+dist/*
+.settings
+*.png~
+bash.exe.stackdump
+.VSCodeCounter/
+.VSCodeCounter/*
+output/
+output/*
+*.csv
+obj/
+obj/*
+bin/
+bin/*
+.vscode/
+.vscode/*
