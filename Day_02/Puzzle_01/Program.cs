@@ -55,6 +55,19 @@ namespace AOC_2022
 
         static void Main(string[] args)
         {
+            /*
+            Score	
+            1	B X
+            2	C Y
+            3	A Z
+            4	A X
+            5	B Y
+            6	C Z
+            7	C X
+            8	A Y
+            9	B Z
+            */
+
             string[] scores = { "B X", "C Y", "A Z", "A X", "B Y", "C Z", "C X", "A Y", "B Z" };
             string[] data = getDataFromFile("input.dat");
             int totalScore = getTotalScoreFromData(scores, data);
